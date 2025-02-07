@@ -11,6 +11,9 @@
             Film film1 = new("oppenheimer", "christopher nolan",180,"történelem",true);
             Film film2 = new("nemtudoooom", "christopher nolan");
 
+            Videojatek videojatek1 = new("xd",17, 40,100);
+            Videojatek videojatek2 = new("józsef", 4021);
+
 
             Console.WriteLine(konyv1.ToString() + "\n" + konyv2.ToString());
 
@@ -23,6 +26,10 @@
             film2.HosszNovelese(140);
 
             Console.WriteLine(film1.ToString() + "\n" + film2.ToString());
+
+
+
+            Console.WriteLine(videojatek1.ToString() + "\n" + videojatek2.ToString());
 
 
 
