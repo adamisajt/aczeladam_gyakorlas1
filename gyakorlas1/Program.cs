@@ -14,6 +14,9 @@
             Videojatek videojatek1 = new("xd",17, 40,100);
             Videojatek videojatek2 = new("józsef", 4021);
 
+            Urhajo urhajo1 = new("jozsefurhajo", 13, 4040,231442);
+            Urhajo urhajo2 = new("dasdj",534);
+
 
             Console.WriteLine(konyv1.ToString() + "\n" + konyv2.ToString());
 
@@ -30,6 +33,9 @@
 
 
             Console.WriteLine(videojatek1.ToString() + "\n" + videojatek2.ToString());
+
+
+            Console.WriteLine(urhajo1.ToString() + "\n" + urhajo2.ToString());
 
 
 
