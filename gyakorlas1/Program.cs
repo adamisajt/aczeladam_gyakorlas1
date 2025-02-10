@@ -17,6 +17,8 @@
             Urhajo urhajo1 = new("jozsefurhajo", 13, 4040,231442);
             Urhajo urhajo2 = new("dasdj",534);
 
+            Kem kem1 = new("atilla", "magyarorszag", 3,75);
+            Kem kem2 = new("bálint", "magyarorszag");
 
             Console.WriteLine(konyv1.ToString() + "\n" + konyv2.ToString());
 
@@ -37,6 +39,7 @@
 
             Console.WriteLine(urhajo1.ToString() + "\n" + urhajo2.ToString());
 
+            Console.WriteLine(kem1.ToString() + "\n" + kem2.ToString());
 
 
         }
